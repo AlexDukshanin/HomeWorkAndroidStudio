@@ -15,7 +15,7 @@
         android:theme="@style/Theme.HomeWork">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".lesson17.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <!-- BroadcastReceiver для Wi-Fi -->
+
         <receiver
             android:name=".WifiReceiver"
             android:enabled="true"
