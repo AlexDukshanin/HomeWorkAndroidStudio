@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <!-- BroadcastReceiver для Wi-Fi -->
+
         <receiver
             android:name=".WifiReceiver"
             android:enabled="true"
